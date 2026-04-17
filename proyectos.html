@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyectos - Gestión de Proyectos</title>
+</head>
+<body>
+
+    <header>
+        <h1>Plataforma de Gestión de Proyectos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="detalle.html">Detalle</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside id="filtros">
+            <h2>Filtros</h2>
+            <form>
+                <label for="categoria">Categoría:</label>
+                <select id="categoria" name="categoria">
+                    <option value="informatica">Informática</option>
+                    <option value="ciencias">Ciencias</option>
+                    <option value="gestion">Gestión</option>
+                </select>
+
+                <label for="anio">Año:</label>
+                <select id="anio" name="anio">
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                </select>
+
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado">
+                    <option value="en_curso">En curso</option>
+                    <option value="finalizado">Finalizado</option>
+                </select>
+                <button type="button">Filtrar</button>
+            </form>
+        </aside>
+
+        <section id="listado-proyectos">
+            <h2>Listado de Proyectos</h2>
+            
+            <article>
+                <h3>Sistema de Gestión de Exámenes</h3>
+                <img src="https://loremflickr.com/cache/resized/123_359572656_51a00dc2a6_z_600_400_nofilter.jpg" alt="Examenes">
+                <p>Plataforma para corrección automatizada.</p>
+                <p><strong>Categoría:</strong> Informática</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article>
+                <h3>Taller de Robótica</h3>
+                <img src="https://loremflickr.com/cache/resized/4882_44387158380_2d7021168a_c_600_400_nofilter.jpg" alt="Robotica">
+                <p>Programación de microcontroladores.</p>
+                <p><strong>Categoría:</strong> Informática</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article>
+                <h3>Huerta Hidropónica</h3>
+                <img src="https://loremflickr.com/cache/resized/2898_14077575382_c1a39def56_z_600_400_nofilter.jpg" alt="Huerta">
+                <p>Monitoreo mediante sensores.</p>
+                <p><strong>Categoría:</strong> Ciencias</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article>
+                <h3>Archivo Histórico</h3>
+                <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=600&h=400&auto=format&fit=crop" alt="Archivo">
+                <p>Digitalización de documentos antiguos.</p>
+                <p><strong>Categoría:</strong> Gestión</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article>
+                <h3>App de Asistencia</h3>
+                <img src="https://loremflickr.com/cache/resized/65535_51321104341_1c8e1b911f_z_600_400_nofilter.jpg" alt="Asistencia">
+                <p>Registro de alumnos con código QR.</p>
+                <p><strong>Categoría:</strong> Informática</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Grupo 4 - Programación Visual</p>
+    </footer>
+
+</body>
+</html>
